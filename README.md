@@ -1,2 +1,2 @@
 # Gesture Vision
-## A project under construction which ima resume during the semester
+## ~~A project under construction which ima resume during the semester~~
