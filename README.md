@@ -55,6 +55,7 @@ cv2.VideoCapture(0) # 0 can be replaced with link to ipwebcam to use phone camer
 
 - Labelling images: [Label Img](https://github.com/tzutalin/labelImg)
 - Some useful models in [TensorFlow](https://github.com/tensorflow/models/tree/master/research)
+- Why [torchvision.transforms](https://stackoverflow.com/questions/50002543/what-are-transforms-in-pytorch-used-for) is used?
 
 ### Deep learning related stuff:
 
