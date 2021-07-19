@@ -14,7 +14,7 @@
 
 ### Conda related stuff:
 
-- Conda creating env in a specified dir:
+- Conda creating env in current working dir:
 
     ``` conda create --prefix ./<env name> ```
 
