@@ -18,6 +18,10 @@
 
     ``` conda create --prefix ./<env name> ```
 
+- Conda remove an env:
+    
+    ``` conda env remove -n <env name> ```
+
 - Uninstall package in conda:
     
     ``` conda uninstall <package name> ```
