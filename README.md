@@ -51,6 +51,32 @@ import cv2 # pip install opencv-python
 cv2.VideoCapture(0) # 0 can be replaced with link to ipwebcam to use phone camera
 ```
 
+- If the image is in weird color (BGR):
+
+```python
+import cv2
+RGB_img = cv2.cvtColor(w, cv2.COLOR_BGR2RGB)
+```
+
+- Transform the images in training set:
+
+```python
+import torchvision.transforms as transforms
+transformations = transforms.Compose([
+    transforms.Resize([x,x]), # x can be any number (usually 224,224 or 256,256 is used)
+    transforms.ToTensor(), # Converts the image array to Tensor
+    transforms.Normalize(mean=[m,m,m],std=[s,s,s]) # m is the mean value that we are trying to achieve on each of RGB channels. s is the standard deviation from mean. (usually m=0.5 and s=0.5 are preferred)
+])
+```
+
+Todo:
+- Load train dataset, dataloader
+- Print an image from dataloader (transpose func)
+- Define the neural network
+- Define each train step
+- Define an epoch
+- 
+
 ### Other useful resources:
 
 - Labelling images: [Label Img](https://github.com/tzutalin/labelImg)
