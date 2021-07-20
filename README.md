@@ -266,6 +266,9 @@ epoch(
 )
 ```
 
+### [Save and resume later](https://pytorch.org/tutorials/recipes/recipes/saving_and_loading_a_general_checkpoint.html)
+
+
 ### Other useful resources:
 
 - Labelling images: [Label Img](https://github.com/tzutalin/labelImg)
