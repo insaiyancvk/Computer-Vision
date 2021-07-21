@@ -275,6 +275,9 @@ epoch(
 - Some useful models in [TensorFlow](https://github.com/tensorflow/models/tree/master/research).
 - Why [torchvision.transforms](https://stackoverflow.com/questions/50002543/what-are-transforms-in-pytorch-used-for) is used?
 - Understand [loss and accuracy](https://datascience.stackexchange.com/questions/42599/what-is-the-relationship-between-the-accuracy-and-the-loss-in-deep-learning).
+- [Gradients](https://www.javatpoint.com/gradient-with-pytorch) in pytorch.
+- When to compute the [loss function](https://stats.stackexchange.com/questions/363885/is-a-loss-function-computed-after-each-step-of-gradient-descent-or-after-a-whole).
+    - TL;DR for SGD calculate loss at the end of every epoch
 
 ### Deep learning related stuff:
 
