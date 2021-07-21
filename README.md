@@ -51,7 +51,7 @@ import cv2 # pip install opencv-python
 cv2.VideoCapture(0) # 0 can be replaced with link to ipwebcam to use phone camera
 ```
 
-### A usual workflow of an end to end deep learning project on torch
+### A general workflow of an end to end deep learning project on torch
 
 #### If the image is in weird color (BGR):
 
@@ -271,9 +271,10 @@ epoch(
 
 ### Other useful resources:
 
-- Labelling images: [Label Img](https://github.com/tzutalin/labelImg)
-- Some useful models in [TensorFlow](https://github.com/tensorflow/models/tree/master/research)
+- Labelling images: [Label Img](https://github.com/tzutalin/labelImg).
+- Some useful models in [TensorFlow](https://github.com/tensorflow/models/tree/master/research).
 - Why [torchvision.transforms](https://stackoverflow.com/questions/50002543/what-are-transforms-in-pytorch-used-for) is used?
+- Understand [loss and accuracy](https://datascience.stackexchange.com/questions/42599/what-is-the-relationship-between-the-accuracy-and-the-loss-in-deep-learning).
 
 ### Deep learning related stuff:
 
