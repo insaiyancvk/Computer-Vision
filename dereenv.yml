@@ -1,4 +1,4 @@
-name: D:\Coding\myrepos\Computer-Vision\dereenv
+name: dereenv
 channels:
   - pytorch
   - conda-forge
