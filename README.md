@@ -10,6 +10,8 @@
 
 [Data Preprocess](https://nbviewer.jupyter.org/github/insaiyancvk/Computer-Vision/blob/main/Data%20Preprocess.ipynb)
 
+Made my own perceptron on the iris dataset. [Check it out!](https://www.insaiyancvk.me/Computer-Vision/19CSE456/iris%20perceptron.html)
+
 ## Notes to self:
 
 ### Conda related stuff:
