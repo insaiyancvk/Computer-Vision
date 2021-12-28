@@ -1,5 +1,4 @@
 # Computer Vision: When your computer knows to see like you
-## ~~A project under construction which ima resume during the semester~~
 
 ### If you wanna check the notebooks, use the following (github gonna take forever to render them):
 
